@@ -1,8 +1,15 @@
+import { Link } from 'react-router-dom'
+
+import baridiRenderPlansPhoto    from '../assets/pbaridihub/pbhubrender+plans.jpg'
+import ndeiya1Photo  from '../assets/ndeiyafarm/ndeiya1.jpg'
+import ndeiya2Photo from '../assets/ndeiyafarm/ndeiya2.jpg'
+import ndeiya3Photo from '../assets/ndeiyafarm/ndeiya3.jpg'
+
 const ASSETS = {
-  baridiRender: 'https://juacoolight.lovable.app/assets/baridihub-render-Dedv2K_b.jpg',
-  ndeiya1:      'https://juacoolight.lovable.app/assets/ndeiya-visit-1-Ck64yLZm.jpg',
-  ndeiya2:      'https://juacoolight.lovable.app/assets/ndeiya-visit-2-DR5zMTRC.jpg',
-  ndeiya3:      'https://juacoolight.lovable.app/assets/ndeiya-visit-3-CCU6CC_-.jpg',
+  baridiRender:   baridiRenderPlansPhoto,
+  ndeiya1:        ndeiya1Photo,
+  ndeiya2:        ndeiya2Photo,
+  ndeiya3:        ndeiya3Photo,
 }
 
 export default function Updates() {

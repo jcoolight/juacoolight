@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom'
 
+import noahPhoto    from '../assets/team/noah.png'
+import stefanPhoto  from '../assets/team/stefan.jpeg'
+import anthonyPhoto from '../assets/team/anthony.png'
+
 const ASSETS = {
-  noah:    'https://juacoolight.lovable.app/assets/noah-midikira-CLDOjkmR.jpg',
-  stefan:  'https://juacoolight.lovable.app/assets/stefan-mari-f1tWQ4Y2.jpg',
-  anthony: 'https://juacoolight.lovable.app/assets/anthony-mwangi-L5EAiqka.jpg',
+  noah:    noahPhoto,
+  stefan:  stefanPhoto,
+  anthony: anthonyPhoto,
 }
 
 const team = [
