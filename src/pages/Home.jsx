@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom'
 
+import heroBgPhoto  from '../assets/webhomepage/hero-bg.jpg'
+import coldStoragePhoto from '../assets/webhomepage/cold-storage.jpg'
+import lightingPhoto from '../assets/webhomepage/lighting-services.jpg'
+import baridiRenderPhoto from '../assets/pbaridihub/JuaCoolightRender.png'
+import ndeiya1Photo  from '../assets/ndeiyafarm/ndeiya1.jpg'
+
 const ASSETS = {
-  heroBg:       'https://juacoolight.lovable.app/assets/hero-bg-DA5AVvvP.jpg',
-  coldStorage:  'https://juacoolight.lovable.app/assets/cold-storage-CQd-ezku.jpg',
-  lighting:     'https://juacoolight.lovable.app/assets/lighting-services-DL6t29AO.jpg',
-  baridiRender: 'https://juacoolight.lovable.app/assets/baridihub-render-Dedv2K_b.jpg',
-  ndeiyaVisit:  'https://juacoolight.lovable.app/assets/ndeiya-visit-1-Ck64yLZm.jpg',
+  heroBg:       heroBgPhoto,
+  coldStorage:  coldStoragePhoto,
+  lighting:     lightingPhoto,
+  baridiRender: baridiRenderPhoto,
+  ndeiyaVisit:  ndeiya1Photo,
 }
 
 const steps = [
