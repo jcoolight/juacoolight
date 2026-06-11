@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 
+import commOutreachPhoto from '../assets/outreachmedia/comm_outreach.jpg'
+
 const ASSETS = {
-  farmer: 'https://juacoolight.lovable.app/assets/farmer-impact-CSgL6D2y.jpg',
+  farmer: commOutreachPhoto,
 }
 
 const impactAreas = [

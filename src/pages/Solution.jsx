@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom'
 
+import coldStoragePhoto from '../assets/webhomepage/cold-storage.jpg'
+import lightingPhoto from '../assets/webhomepage/lighting-services.jpg'
+import baridiCadRenderPhoto from '../assets/pbaridihub/baridihub_cad_elevation_drawing.jpg'
+
 const ASSETS = {
-  baridiRender: 'https://juacoolight.lovable.app/assets/baridihub-render-Dedv2K_b.jpg',
-  coldStorage:  'https://juacoolight.lovable.app/assets/cold-storage-CQd-ezku.jpg',
-  lighting:     'https://juacoolight.lovable.app/assets/lighting-services-DL6t29AO.jpg',
+  baridiRender: baridiCadRenderPhoto,
+  coldStorage:  coldStoragePhoto,
+  lighting:     lightingPhoto,
 }
 
 const coldFeatures = [

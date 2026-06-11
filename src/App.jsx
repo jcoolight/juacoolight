@@ -9,10 +9,12 @@ import Impact from './pages/Impact'
 import Updates from './pages/Updates'
 import Team from './pages/Team'
 import Contact from './pages/Contact'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
     <BrowserRouter>
+     <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-earth-900 text-white">
         <Navbar />
         <main className="flex-1">
