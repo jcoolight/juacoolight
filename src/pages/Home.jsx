@@ -49,11 +49,6 @@ export default function Home() {
             <Link to="/contact" className="btn-outline">Partner With Us</Link>
           </div>
         </div>
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50">
-          <span className="font-mono text-xs text-white tracking-widest">SCROLL</span>
-          <div className="w-px h-8 bg-white/40 animate-pulse" />
-        </div>
       </section>
 
       {/* ── THE CHALLENGE ── */}

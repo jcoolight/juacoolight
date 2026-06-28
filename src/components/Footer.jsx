@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const LOGO = 'https://juacoolight.lovable.app/assets/logo-BLL4pjuj.png'
+import LOGO from '../assets/logo/JC_Logo.png'
 
 export default function Footer() {
   return (
